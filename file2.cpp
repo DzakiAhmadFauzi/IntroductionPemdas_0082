@@ -17,3 +17,7 @@ float HitungLuas(){
     //compute nLuas = nPanjang * nLebar
     return Panjang * Lebar;
 }
+void OutputData(){
+    //display "Luas Persegi Panjang : " + nLuas
+    cout << "Luas Persegi Panjang : " << HitungLuas();
+}
