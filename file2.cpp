@@ -13,3 +13,7 @@ void InputData(){
     //accept nLebar
     cin >> Lebar;
 }
+float HitungLuas(){
+    //compute nLuas = nPanjang * nLebar
+    return Panjang * Lebar;
+}
