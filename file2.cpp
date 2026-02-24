@@ -3,3 +3,13 @@ using namespace std;
 
 //numeric nPanjang, nLebar, Nluas
 float Panjang, Lebar, Luas;
+void InputData(){
+    //display "Masukkan Panjang :"
+    cout << "Masukkan Panjang : ";
+    //accept nPanjang
+    cin >> Panjang;
+    //display "Masukkan Lebar"
+    cout << "Masukkan Lebar : ";
+    //accept nLebar
+    cin >> Lebar;
+}
