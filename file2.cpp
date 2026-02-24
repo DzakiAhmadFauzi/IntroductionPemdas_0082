@@ -21,3 +21,8 @@ void OutputData(){
     //display "Luas Persegi Panjang : " + nLuas
     cout << "Luas Persegi Panjang : " << HitungLuas();
 }
+int main()
+{ //begin
+    InputData();
+    OutputData();
+} //end
